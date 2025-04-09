@@ -1,17 +1,11 @@
-import Link from "next/link";
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import SobreMi from "./components/sobreMi";
-import ProyectosInteresantes from "./components/proyectosInteresantes";
+import Link from "next/link"; // Esta importación es válida ya que estás usando el componente Link.
+import "./globals.css"; // Esta importación es válida para los estilos globales.
 
-
-export default function RootLayout({
-}: {
-}) {
+export default function RootLayout() {
   return (
     <html lang="es">
       <head>
+        {/* Aquí podrías incluir más metadatos si es necesario */}
       </head>
       <body className="bg-gray-100">
         <nav className="bg-black py-2">
@@ -38,7 +32,7 @@ export default function RootLayout({
             </li>
           </ul>
         </nav>
-     </body>
+      </body>
     </html>
   );
 }
