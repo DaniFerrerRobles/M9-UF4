@@ -3,6 +3,7 @@ import Link from "next/link";
 import SobreMi from "./components/sobreMi";
 import CarreraDeportiva from "./components/carreraDeportiva";
 import ProyectosInteresantes from "./components/proyectosInteresantes";
+import Cv from "./components/cv";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -36,6 +37,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="bg-black">
           <section id="sobreMi" className="mb-52 mx-6 text-white">
             <SobreMi />
+          </section>
+
+          <section id="curriculumVitae" className="my-12 mx-6 text-white">
+            <Cv />
           </section>
 
           <section id="proyectosInteresantes" className="mb-52 mx-6 text-white display- felx ">
