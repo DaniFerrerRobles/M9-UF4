@@ -18,13 +18,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </ul>
         </nav>
 
-        <main className="bg-black">
-          <section id="sobreMi" className="mb-52 mx-6 text-white"><SobreMi /></section>
-          <section id="curriculumVitae" className="my-12 mx-6 text-white"><Cv /></section>
-          <section id="proyectosInteresantes" className="mb-52 mx-6 text-white flex"><ProyectosInteresantes /></section>
-          <section id="carreraDeportiva" className="my-12 mx-6 text-white"><CarreraDeportiva /></section>
-          {children}
-        </main>
+        <main className="bg-gray-900">
+          <div className="max-w-6xl mx-auto px-4">
+            <section id="sobreMi" className="mb-52 text-white"><SobreMi /></section>
+            <section id="curriculumVitae" className="my-12 text-white"><Cv /></section>
+            <section id="proyectosInteresantes" className="mb-52 text-white flex justify-center"><ProyectosInteresantes /></section>
+            <section id="carreraDeportiva" className="my-12 text-white"><CarreraDeportiva /></section>
+            {children}
+          </div>
+      </main>
+
 
         <footer className="py-4 bg-white text-black font-bold">
           <ul className="flex justify-center space-x-6">
