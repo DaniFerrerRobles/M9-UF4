@@ -16,7 +16,7 @@ const SobreMi = () => {
       </p>
 
       <div>
-      <img src="/programacion.webp" alt="cod" className="h-auto max-w-lg object-cover mx-auto mt-7"/>
+      <img src="/programacion.webp" alt="codigo" className="h-auto max-w-lg object-cover mx-auto mt-7"/>
       </div>
     </div>
   );
