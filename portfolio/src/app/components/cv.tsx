@@ -24,7 +24,7 @@ const Cv = () => {
           <ul className="space-y-2 text-sm sm:text-base">
             <li>
               <strong>Grado Superior en Desarrollo de Aplicaciones Web</strong><br/>
-              FP LLEFIA — 2021 – Actualidad
+              FP LLEFIA — 2021 – 2026
             </li>
             <li>
               <strong>Grado Medio en Sistemas Microinformáticos y Redes</strong><br/>
